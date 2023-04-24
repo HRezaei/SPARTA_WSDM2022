@@ -1,17 +1,21 @@
 import torch
+model_config = [{
+    'dac_inputs': 6
+}]
+
 config = {
     # data
-    "data_dir":"./drive/MyDrive/a2g-merged/",
+    "data_dir":"../data/HOPE_small/",
     "data_files":{
-        "train":"a2g_train.csv",
-        "valid":"a2g_valid.csv",
-        "test":"a2g_test.csv",
+        "train":"Train.csv",
+        "valid":"Validation.csv",
+        "test":"Test.csv",
     },
     # field to read from the dataset, its is limited to our dataset only
     "fields":{
         "text":"Utterance",
         "act":"Dialog_Act",
-        "label":"Dialog_Act_Label",
+        "label":"Dialog_Act0_Label",
         "id":"ID",
         "speaker":"Type"
     },
@@ -40,7 +44,7 @@ config = {
     
     "num_dialogue_acts":10,
     
-    "model_config":None, #model_config,
+    "model_config": model_config,
     "select_model_config":-1, # it will be from [0, 1, 2, 3, 4, 5, 6, 7]
    
     

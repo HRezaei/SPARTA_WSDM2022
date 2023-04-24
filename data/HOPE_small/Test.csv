@@ -1,0 +1,10 @@
+,Unnamed: 0,ID,Type,Utterance,Dialog_Act,Dialog_Act_Label,Dialog_Act0,Dialog_Act1,Dialog_Act2,Dialog_Act0_Label,Dialog_Act1_Label,Dialog_Act2_Label
+10204,0,213_0,T,What's going on? What are you feeling right now?,"gt,irq",1,gt,irq,,0,2,15
+10205,1,213_1,P,I'm feeling disgust,id,2,id,,,1,15,15
+10206,2,213_2,T,Disgust about what.,crq,4,crq,,,3,15,15
+10207,3,213_3,P,I can't do this.,"on,cd",11,on,cd,,8,4,15
+10208,4,213_4,T,"Like you can't do this. So, so tell me what that feeling of disgust is. What do you disgust it about?",irq,3,irq,,,2,15,15
+10209,5,213_5,P,"Just my body like just, I don't know, I feel like eating that just makes my body feel you know, gross like uncomfortable, I don't know.",id,2,id,,,1,15,15
+10210,6,213_6,T,"Yeah. Well, it sounds like there's some judgments in there. Right. So it sounds like probably you're having some judgments like, I'm feeling really bad. ",crq,4,crq,,,3,15,15
+10211,7,213_7,P,"Yeah, yeah",ack,7,ack,,,5,15,15
+10212,8,213_8,T,"that sort of thing. But you did say it more descriptively which is great, which is you're feeling uncomfortable right now.",gc,8,gc,,,6,15,15

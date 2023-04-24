@@ -1,0 +1,22 @@
+,Unnamed: 0,ID,Type,Utterance,Dialog_Act,Dialog_Act_Label,Dialog_Act0,Dialog_Act1,Dialog_Act2,Dialog_Act0_Label,Dialog_Act1_Label,Dialog_Act2_Label
+0,0,210_0,T,"Hello, Judy Thomas. ",gt,0,gt,,,0,15,15
+1,1,210_1,P,Yes. Hi.,gt,0,gt,,,0,15,15
+2,2,210_2,T,"Hello there. My name is Dr. Beji. I'm one of the new GP in the practice. And I'm seeing you today instead of Dr. Jones, who's your usual GP?","gt,irq",1,gt,irq,,0,2,15
+3,3,210_3,P,"Yes, he is. Yeah. ",id,2,id,,,1,15,15
+4,4,210_4,T,"First of all, what would you like me to call you? ",gt,0,gt,,,0,15,15
+5,5,210_5,P,"Oh, Julie os fine. ",gt,0,gt,,,0,15,15
+6,6,210_6,T,"Okay. Okay. But Julie, so what is it that's bought you to see me today?","gt,irq",1,gt,irq,,0,2,15
+7,7,210_7,P,"Well, it's the same thing that I see Dr. Jones about as my heart. ",id,2,id,,,1,15,15
+8,8,210_8,T,"Yeah, I understand that you've been in to see him a few times over the last few months. Would you mind if I asked you to go over again what the problem is perhaps in your own words, so that I get an understanding of it. ",irq,3,irq,,,2,15,15
+9,9,210_9,P,"I just I keep getting these situations where my heart starts to really, really race like, boom, boom, boom, boom, boom, boom, boom, boom, boom. I get chest pains. I can't catch my breath and it's making me feel funny talking to you about And so my heart starts to race. I can't get my breath and I get chest pain. I  get very afraid. I'm gonna have to die",id,2,id,,,1,15,15
+10,10,210_10,T,and you're feeling a little bit anxious just here with me.,crq,4,crq,,,3,15,15
+11,11,210_11,P,Yeah I am just talking about it. I can feel it starting to come up.,cd,5,cd,,,4,15,15
+12,12,210_12,T,Take your time. Okay. So your heart starts to race really beats really fast and you feel like you can't catch your breath.,crq,4,crq,,,3,15,15
+13,13,210_13,P,"Yeah, that's exactly it. Yes. Yeah.","ack,cd",6,ack,cd,,5,4,15
+14,14,210_14,T,How long has all this been going on for Julie?,irq,3,irq,,,2,15,15
+15,15,210_15,P,"I think it's probably about six months, basically. ",id,2,id,,,1,15,15
+16,16,210_16,T,Okay. And can you remember what happened to start it all off?,irq,3,irq,,,2,15,15
+17,17,210_17,P,"Well, I think we have had some problems at work. And I felt more stressed about work than I normally do. And basically, I was just trying to get into town one day on a day off and it was very hot, very funny, hot days and it just happened. My heart just started. to race and race and race and I couldn't get my breath, I was just like gasping for breath. Then I start to get chest pains and it was just awful. And I managed to sit down and call my husband and he, he came out, he actually left work to come and get me. ",id,2,id,,,1,15,15
+18,18,210_18,T,Right. So that sounds like quite an unpleasant experience.,crq,4,crq,,,3,15,15
+19,19,210_19,P,"Its was awful It frightenining, yeah",cd,5,cd,,,4,15,15
+20,20,210_20,T,"and when that was happening to Julie, when you're in the middle of town, what was it that you thought was going on? ",irq,3,irq,,,2,15,15

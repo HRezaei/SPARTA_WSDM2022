@@ -4,7 +4,7 @@ from pytorch_lightning.callbacks import EarlyStopping, ModelCheckpoint
 from transformers import AutoTokenizer
 import pytorch_lightning as pl
 from Trainer import LightningModel
-from .models.DAC import DACModel
+from models.DAC import DACModel
 
 if __name__ == '__main__':
     
@@ -29,7 +29,7 @@ if __name__ == '__main__':
     ## Trainer
     trainer = pl.Trainer(
         logger=logger,
-        gpus=[0],
+        #gpus=[0],
         checkpoint_callback=checkpoints,
         callbacks=[early_stopping],
         default_root_dir="./",
@@ -47,5 +47,3 @@ if __name__ == '__main__':
     )
     trainer.fit(lm)
     trainer.test(lm)
-    
-    

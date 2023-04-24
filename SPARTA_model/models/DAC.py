@@ -41,7 +41,7 @@ class DACModel(nn.Module):
         )
         # # load the model from checkpoints and then freeze the weights
         print("Loading Speaker Classifier from Checkpoint ...")
-        self.speaker_aware.load_state_dict(torch.load(self.config['speaker_classifier_ckpt_path'])['state_dict'])
+        #self.speaker_aware.load_state_dict(torch.load(self.config['speaker_classifier_ckpt_path'])['state_dict'])
 
         # # freeze the weights of the model if you want
         # if self.speaker_aware is not None:
@@ -265,4 +265,3 @@ class DACModel(nn.Module):
             
             # "previous_sid":current_sid
         }
-        

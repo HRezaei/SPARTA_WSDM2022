@@ -5,7 +5,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 from typing import Any, NoReturn
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report  
-from .dataset.dataset import DADataset
+from dataset.dataset import DADataset
 from datasets import load_dataset
 from torch.utils.data import DataLoader
 
@@ -142,7 +142,3 @@ class LightningModel(pl.LightningModule):
         avg_precision = torch.stack([x['test_precision'] for x in outputs]).mean()
         avg_recall = torch.stack([x['test_recall'] for x in outputs]).mean()
         return {"test_loss":avg_loss, "test_precision":avg_precision, "test_recall":avg_recall, "test_acc":avg_acc, "test_f1":avg_f1}
-
-
-    
-    
